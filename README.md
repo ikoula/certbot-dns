@@ -1,6 +1,15 @@
-# Let's encrypt DNS challenge 
+# Let's encrypt DNS challenge Ikoula
 
-# Usage
+## dependency
+- certbot
+- curl
+- jq
+
+```shell
+apt update && apt install -y certbot curl jq
+```
+
+## Usage
 ```shell
 bash <(curl -s https://raw.githubusercontent.com/ikoula/certbot-dns/master/install.sh)
 
